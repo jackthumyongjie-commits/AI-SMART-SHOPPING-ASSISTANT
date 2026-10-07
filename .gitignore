@@ -1,0 +1,5 @@
+# Live cPanel login. Keep the example file; never commit the real one.
+includes/config.cpanel.php
+
+# Runtime logs
+error.log

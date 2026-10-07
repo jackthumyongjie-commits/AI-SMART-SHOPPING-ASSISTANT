@@ -1,0 +1,14 @@
+<?php
+/**
+ * cPanel database settings.
+ * Copy this file to includes/config.cpanel.php on the server, then replace
+ * the three values with the database and user created in cPanel → MySQL Databases.
+ * Add the user to that database with All Privileges.
+ *
+ * Localhost keeps using XAMPP even when this file exists.
+ * A real domain uses these cPanel credentials.
+ */
+define('CPANEL_DB_HOST', 'localhost');
+define('CPANEL_DB_NAME', 'cpaneluser_ai_smart_shopping');
+define('CPANEL_DB_USER', 'cpaneluser_shop');
+define('CPANEL_DB_PASS', 'your_password');

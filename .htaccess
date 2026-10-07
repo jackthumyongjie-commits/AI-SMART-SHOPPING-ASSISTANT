@@ -1,0 +1,10 @@
+# Keep the PHP error log from being downloaded on cPanel.
+<Files "error.log">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
